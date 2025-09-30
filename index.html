@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jindjit S Kang - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-logo">TheProgrammer</div>
+        <div class="loading-spinner"></div>
+        <div class="loading-text">Loading Portfolio...</div>
+        <div class="loading-progress">
+            <div class="loading-progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Matrix Rain Background -->
+    <div class="matrix-rain" id="matrixRain"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">TheProgrammer</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About me</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Connect</a>
+                </li>
+            </ul>
+            <div class="nav-actions">
+                <button class="btn-primary">Connect →</button>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-particles">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-line">Building the Future with <span class="highlight">Code</span></span>
+                </h1>
+                <p class="hero-description">
+                    Welcome to my digital portfolio! I'm Jindjit Singh Kang, a Computer Science graduate from Coventry University. 
+                    I specialize in full-stack development, AI solutions, and cybersecurity. Let's create something amazing together.
+                </p>
+            </div>
+            <div class="hero-visual">
+                <div class="code-editor">
+                    <div class="editor-header">
+                        <div class="editor-title">
+                            <div class="editor-icon">●</div>
+                            <span>TheProgrammer</span>
+                        </div>
+                        <div class="editor-controls">
+                            <span class="control">−</span>
+                            <span class="control">□</span>
+                            <span class="control">×</span>
+                        </div>
+                    </div>
+                    <div class="editor-content">
+                        <div class="editor-sidebar">
+                            <div class="file-item">📁 src</div>
+                            <div class="file-item">📁 components</div>
+                            <div class="file-item">📄 index.html</div>
+                            <div class="file-item">📄 styles.css</div>
+                            <div class="file-item">📄 script.js</div>
+                        </div>
+                        <div class="editor-main">
+                            <div class="code-line">
+                                <span class="line-number">1</span>
+                                <span class="code">&lt;!DOCTYPE html&gt;</span>
+                            </div>
+                            <div class="code-line">
+                                <span class="line-number">2</span>
+                                <span class="code">&lt;html lang="en"&gt;</span>
+                            </div>
+                            <div class="code-line">
+                                <span class="line-number">3</span>
+                                <span class="code">&lt;head&gt;</span>
+                            </div>
+                            <div class="code-line">
+                                <span class="line-number">4</span>
+                                <span class="code">  &lt;title&gt;Portfolio&lt;/title&gt;</span>
+                            </div>
+                            <div class="code-line">
+                                <span class="line-number">5</span>
+                                <span class="code">&lt;/head&gt;</span>
+                            </div>
+                            <div class="code-line">
+                                <span class="line-number">6</span>
+                                <span class="code">&lt;body&gt;</span>
+                            </div>
+                            <div class="code-line">
+                                <span class="line-number">7</span>
+                                <span class="code">  &lt;h1&gt;Hello <span class="highlight-text">World</span>&lt;/h1&gt;</span>
+                            </div>
+                            <div class="code-line">
+                                <span class="line-number">8</span>
+                                <span class="code">  &lt;div class="<span class="highlight-text">container</span>"&gt;</span>
+                            </div>
+                            <div class="code-line">
+                                <span class="line-number">9</span>
+                                <span class="code">    &lt;p&gt;Welcome to my portfolio&lt;/p&gt;</span>
+                            </div>
+                            <div class="code-line">
+                                <span class="line-number">10</span>
+                                <span class="code">  &lt;/div&gt;</span>
+                            </div>
+                            <div class="code-line">
+                                <span class="line-number">11</span>
+                                <span class="code">&lt;/body&gt;</span>
+                            </div>
+                            <div class="code-line">
+                                <span class="line-number">12</span>
+                                <span class="code">&lt;/html&gt;</span>
+                            </div>
+                        </div>
+                        <div class="editor-panel">
+                            <div class="panel-title">TextView</div>
+                            <div class="panel-content">
+                                <div class="attr-line">android:id="@+id/textView"</div>
+                                <div class="attr-line">android:layout_width="wrap_content"</div>
+                                <div class="attr-line">android:layout_height="wrap_content"</div>
+                                <div class="attr-line">android:text="<span class="highlight-text">Hello World</span>"</div>
+                                <div class="attr-line">android:gravity="center"</div>
+                                <div class="attr-line">Font family: <span class="highlight-text">sans-serif</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know me better</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Computer Science Graduate</h3>
+                    <p>
+                        I'm a Computer Science graduate from Coventry University with strong academic and practical 
+                        experience in software development, database management, and technical research. Proficient in 
+                        Python, Java, Rust, C, and C++, with a proven ability to deliver solutions in fast-paced, 
+                        collaborative environments.
+                    </p>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">💻</div>
+                            <h4>Programming Languages</h4>
+                            <p>Python, Java, Rust, C, C++, C#, JavaScript</p>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">⚙️</div>
+                            <h4>Backend & APIs</h4>
+                            <p>Python Flask, REST APIs, SQL, MySQL, PostgreSQL</p>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">📱</div>
+                            <h4>Mobile & Web</h4>
+                            <p>Android Kotlin, React, HTML, CSS, TypeScript</p>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">☁️</div>
+                            <h4>DevOps & Cloud</h4>
+                            <p>Docker, CI/CD, Microsoft Azure, Linux, Git</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="stats-container">
+                        <div class="stat-item">
+                            <div class="stat-number">2:1</div>
+                            <div class="stat-label">Degree Classification</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">14</div>
+                            <div class="stat-label">GitHub Repositories</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">15%</div>
+                            <div class="stat-label">Student Satisfaction Increase</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">4+</div>
+                            <div class="stat-label">Programming Languages</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Experience</h2>
+                <p class="section-subtitle">My professional journey</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">Sep 2023 - Present</div>
+                        <h3>Colleague</h3>
+                        <h4>Tesco, Warwick, United Kingdom</h4>
+                        <p>Built strong collaborative relationships with colleagues across departments, ensuring smooth store operations and effective teamwork during busy periods.</p>
+                        <ul>
+                            <li>Demonstrated excellent communication skills assisting customers</li>
+                            <li>Actively contributed to team tasks and stock management</li>
+                            <li>Maintained strict confidentiality with sensitive information</li>
+                            <li>Quickly adapted to new internal systems and procedures</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">May 2024 - Aug 2024</div>
+                        <h3>Backend Developer Intern</h3>
+                        <h4>SkyIT, Canada</h4>
+                        <p>Applied software engineering best practices to design, build, and ship full-stack features across web and desktop applications.</p>
+                        <ul>
+                            <li>Built robust Python services and APIs with middleware integration</li>
+                            <li>Developed front-end views with TypeScript and modern UI frameworks</li>
+                            <li>Delivered Android development in Kotlin with backend API integration</li>
+                            <li>Containerized services with Docker and automated CI/CD pipelines</li>
+                            <li>Deployed to Microsoft Azure with performance optimization</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">May 2023 - Jul 2025</div>
+                        <h3>Course Representative</h3>
+                        <h4>Coventry University, Coventry, United Kingdom</h4>
+                        <p>Engaged with academic staff and students to gather course-related requirements, contributing to a 15% increase in student satisfaction.</p>
+                        <ul>
+                            <li>Analyzed student feedback data for course improvement</li>
+                            <li>Implemented new communication channels for wider feedback</li>
+                            <li>Led to 20% increase in student engagement levels</li>
+                            <li>Demonstrated self-motivation and strategic initiative execution</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Some of my recent work</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-visual">
+                        <div class="project-icon">📈</div>
+                        <div class="project-preview">
+                            <div class="preview-bar"></div>
+                            <div class="preview-bar"></div>
+                            <div class="preview-bar"></div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Low Latency Trading Simulator</h3>
+                        <p>A high-performance trading simulator built in Java with optimized order processing, 
+                        Redis in-memory storage, and Docker containerization for scalability.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Redis</span>
+                            <span class="tech-tag">Docker</span>
+                        </div>
+                        <button class="project-btn" onclick="window.open('https://github.com/jindkang-tech', '_blank')">View on GitHub</button>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-visual">
+                        <div class="project-icon">🎮</div>
+                        <div class="project-preview">
+                            <div class="preview-circle"></div>
+                            <div class="preview-circle"></div>
+                            <div class="preview-circle"></div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Shooting Game</h3>
+                        <p>Interactive shooting game developed in C# with agile methodologies, 
+                        time management optimization, and productivity tracking features.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">C#</span>
+                            <span class="tech-tag">Agile</span>
+                            <span class="tech-tag">Game Dev</span>
+                        </div>
+                        <button class="project-btn" onclick="window.open('https://github.com/jindkang-tech/shooting-game', '_blank')">View on GitHub</button>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-visual">
+                        <div class="project-icon">📊</div>
+                        <div class="project-preview">
+                            <div class="preview-chart">
+                                <div class="chart-bar" style="height: 60%"></div>
+                                <div class="chart-bar" style="height: 80%"></div>
+                                <div class="chart-bar" style="height: 40%"></div>
+                                <div class="chart-bar" style="height: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Big Data Analytics</h3>
+                        <p>Data processing and analytics project using Python with Pandas, 
+                        focusing on large dataset manipulation and statistical analysis.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Pandas</span>
+                            <span class="tech-tag">Data Science</span>
+                        </div>
+                        <button class="project-btn" onclick="window.open('https://github.com/jindkang-tech/big-data', '_blank')">View on GitHub</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Let's Connect</h2>
+                <p class="section-subtitle">Ready to work together?</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <p>I'm always interested in new opportunities and exciting projects. 
+                    Let's discuss how we can work together to create something amazing.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>kang.jind04@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div>
+                                <h4>Location</h4>
+                                <p>11 Prospero Drive, Warwick, CV346FF</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📞</div>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>07867055890</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">🐙</div>
+                            <div>
+                                <h4>GitHub</h4>
+                                <p><a href="https://github.com/jindkang-tech" target="_blank" style="color: #007aff; text-decoration: none;">github.com/jindkang-tech</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2024 Jindjit Singh Kang. All rights reserved.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com/jindkang-tech" target="_blank" class="social-link">GitHub</a>
+                    <a href="mailto:kang.jind04@gmail.com" class="social-link">Email</a>
+                    <a href="tel:07867055890" class="social-link">Phone</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
