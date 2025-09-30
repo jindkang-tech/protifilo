@@ -19,11 +19,6 @@ protifilo/
 ├── index.html          # Main HTML file
 ├── styles.css          # CSS styles and animations
 ├── script.js           # JavaScript functionality
-├── photo1.jpg          # Hero section image
-├── photo2.jpg          # About section image
-├── photo3.jpg          # Project 1 image
-├── photo4.jpg          # Project 2 image
-├── Jindjit S Kang (2).pdf  # Resume/CV
 └── README.md           # This file
 ```
 
@@ -52,13 +47,6 @@ Key CSS variables you can modify in `styles.css`:
 - Background colors: `#ffffff`, `#f5f5f7`
 - Font family: `'SF Pro Display'`
 
-### Images
-Replace the following images with your own:
-- `photo1.jpg` - Hero section profile image
-- `photo2.jpg` - About section image
-- `photo3.jpg` - Project 1 showcase
-- `photo4.jpg` - Project 2 showcase
-
 ## Browser Support
 
 - Chrome (recommended)
@@ -83,9 +71,4 @@ This project is open source and available under the MIT License.
 
 For questions or support, please contact:
 - Email: kang.jind04@gmail.com
-- LinkedIn: [Your LinkedIn Profile]
-- GitHub: [Your GitHub Profile]
-
 ---
-
-**Note**: This website template is inspired by Apple's design language and provides a professional, modern portfolio solution. Customize it to match your personal brand and showcase your work effectively.
